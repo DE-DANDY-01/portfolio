@@ -1372,6 +1372,9 @@ body {
 }
 
 .dishes-main__set {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3414,7 +3417,7 @@ button.swiper-pagination-bullet {
   }
 
   .about-main__slide {
-    padding: 0px 0px 100% 0px;
+    padding: 0px 0px 50% 0px;
   }
 
   .swiper-custom-button-next {
@@ -3638,6 +3641,10 @@ button.swiper-pagination-bullet {
     -webkit-transition: all 0.35s ease 0s;
     -o-transition: all 0.35s ease 0s;
     transition: all 0.35s ease 0s;
+  }
+
+  .about-main__container {
+    padding-bottom: 30px;
   }
 
   .work-main__items {
