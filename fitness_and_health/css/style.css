@@ -370,7 +370,7 @@ h6 {
   font-weight: 700;
   font-size: 25px;
   line-height: 1.248;
-  letter-spacing: 6%;
+  letter-spacing: 1.5;
 }
 
 .header__logo::first-letter {
@@ -1134,7 +1134,7 @@ h6 {
 }
 
 .health-and-fitness__always-get-adieus {
-  max-width: 468;
+  max-width: 468px;
   font-weight: 700;
   line-height: 1.265;
   margin: 0px 0px 31px 0px;
