@@ -4289,7 +4289,7 @@
                 if (menuLink.dataset.goto && document.querySelector(menuLink.dataset.goto)) {
                     const gotoBlock = document.querySelector(menuLink.dataset.goto);
                     const gotoBlockValue = gotoBlock.getBoundingClientRect().top + scrollY - document.querySelector(".header").offsetHeight;
-                    if (gotoBlock.closest(".menu-open")) document.querySelector(".menu-open").classList.remove("menu-open");
+                    if (gotoBlock.closest(".menu-open")) document.querySelector(".menu-open").classList.remove("menu-open", "lock");
                     window.scrollTo({
                         top: gotoBlockValue,
                         behavior: "smooth"
